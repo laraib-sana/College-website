@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School & College website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/school logo.jpg"</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Best School & College</h1>
+            <p>Many schools and colleges have designated mottos that represent the culture of that<br> institution identify themselves in a few words.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+<!------Course----->
+<section class="course">
+<h1>Courses We Offer</h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+<div class="row">
+    <div class="course-col">
+        <h3>Middle School</h3>
+        <p>Our Middle School comprises of Grade 6 & Grade 7, where the curriculum focuses on the core subject areas: Language, Arts, Math, Science, History and Geography. At Cornerstone School, we understand that today’s students learn differently.</p>
+    </div>
+    <div class="course-col">
+        <h3>High School</h3>
+        <p>At Cornerstone High School, students become more confident, caring and capable as they focus on the challenges of a meaningful and well-rounded curriculum. It is a multi-layered program through which students not only learn the content of each </p>
+    </div>
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>The CSS College for Girls started to function in 2021. CSS College has emerged as a leading college in a short period. The College with its dynamic faculty caters to the diverse needs of society by imparting education in almost all the major fields </p>
+    </div>
+</div>
+</section>
+<!------Campus----->
+
+<section class="campus">
+<h1>Announcements</h1>
+<p>Welcome to the start of your journey</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="images/admissions.webp">
+        <div class="layer">
+            <h3>Admission Information</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/aitchison-documentary.jpg">
+        <div class="layer">
+            <h3>College Documentary</h3>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/reliving-aitchison.jpg">
+        <div class="layer">
+            <h3>Reliving Aitchison</h3>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<!------Facilities----->
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Concordia Colleges aims to provide extraordinary learning experiences to our students so that they excel in their<br> personal and professional endeavours.Our prestige is a by-product of our academic<br> mission to become a learning institute that aspires to harness leadership and generate useful knowledge.</p>
+    <div class="row">
+<div class="facilities-col">
+    <img src="images/library.jpg">
+    <h3>World Class Library</h3>
+    <p> College libraries provide access to a wide range of resources, including books, journals, and online databases</p>
+</div>
+<div class="facilities-col">
+    <img src="images/playground.webp">
+    <h3>Largest Play Ground</h3>
+    <p>a place for children to play, usually outdoors, and often equipped with slides, swings, and seesaws.</p>
+</div>
+<div class="facilities-col">
+    <img src="images/cafeteria.jpeg">
+    <h3>Tasty and Healthy Food</h3>
+    <p>  Cafeterias play a vital role in institutions and organizations by providing a dedicated space for communal dining.</p>
+</div>
+    </div>
+
+</section>
+<!------Call to Action----->
+<section class="cta">
+    <h1>Enroll For Our Various Online Courses<br>Anywhere From The World</h1>
+    <a href="" class="hero-btn">Contact Us</a>
+
+</section>
+
+<!------Footer----->
+   <section class="footer">
+    <h4>About Us</h4>
+    <p>LARGEST EDUCATIONAL NETWORK IN PAKISTAN, SINCE 1985.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    </div>
+
+   </section>
+
+
+
+
+
+
+
+
+<!------JavaScript for Toggle Menu----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
